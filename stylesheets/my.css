@@ -1,0 +1,32 @@
+.figure {background-color:#333333; font-size:x-small; margin: 0px 50px 20px; text-align: center; max-width: 720px;}
+.figure img {display: block; margin-left:auto; margin-right:auto;}
+
+.results td {text-align: right;}
+.bold_row td {font-weight: bold;}
+.highlight td {background-color:#333300;}
+ 
+table {margin-left:auto; margin-right:auto;}
+td {vertical-align:top; text-align:right;}
+th {vertical-align:top;}
+ 
+.key {
+  display:inline-block;
+  text-align:center;
+  vertical-align:bottom;
+  min-width:12px;
+  border:1px solid #555555;
+  border-radius: 3px;
+  margin-bottom:1px;
+}
+
+.keyg {
+  background-color:Green;
+}
+
+.keyo {
+  background-color:DarkOrange;
+}
+
+.keyr {
+  background-color:Red;
+}
