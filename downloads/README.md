@@ -10,15 +10,15 @@ For each layout, there is:
 
 ### Solemak Layout [(info)](http://kennetchaz.github.io/symmetric-typing/solemak.html)
 
-* [Installer](solemak/solemak.zip)
+* [Installer](https://github.com/kennetchaz/symmetric-typing/raw/gh-pages/downloads/solemak/solemak.zip)
 * [KLC file](solemak/solemak.klc)
 
 ### Hein Layout [(info)](http://kennetchaz.github.io/symmetric-typing/hein.html)
 
-* [Installer](hein/hein.zip)
+* [Installer](https://github.com/kennetchaz/symmetric-typing/raw/gh-pages/downloads/hein/hein.zip)
 * [KLC file](hein/hein.klc)
 
 ### Niro Layout [(info)](http://kennetchaz.github.io/symmetric-typing/niro.html)
 
-* [Installer](niro/niro.zip)
+* [Installer](https://github.com/kennetchaz/symmetric-typing/raw/gh-pages/downloads/niro/niro.zip)
 * [KLC file](niro/niro.klc)
