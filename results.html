@@ -56,12 +56,12 @@
 
 <p>The formula used for scoring is:</p>
 
-<code>score = [ 4 * F<sub>4</sub> + 3 * F<sub>3</sub> + 2 * F<sub>2</sub> + F<sub>1</sub> ] / 4  -  2 * (same-finger)</code><br/>
+<code>score = ( F<sub>4</sub> ) + ( 3/4 * F<sub>3</sub> ) + ( 1/2 * F<sub>2</sub> ) + ( 1/4 * F<sub>1</sub> ) -  (same-finger)</code><br/>
 <span style="font-size:x-small">...where F<sub><b><i>s</i></b></sub> is the frequency of keys that score <b><i>s</i></b>.</span><br/>
 <br/>
 This is also equivalent to:<br/>
 <br/>
-<code>score = [ (best 4) + (best 8) + (best 12) + (best 18) ] / 4  -  2 * (same-finger)</code><br/>
+<code>score = [ (best 4) + (best 8) + (best 12) + (best 18) ] / 4  -  (same-finger)</code><br/>
 <span style="font-size:x-small">...where (best <b><i>n</i></b>) refers to the frequency of a keypress being one of the <b><i>n</i></b> best keys.</span><br/>
 <br/>
 
@@ -91,94 +91,98 @@ Here are the results:</p>
   <tr class="highlight">
     <td><a href="solemak.html">Solemak</a></td>
     <td>47:53</td>
-    <td>34.0%</td>
-    <td>63.0%</td>
-    <td>78.7%</td>
-    <td>93.1%</td>
-    <td>1.2%</td>
+    <td>35.3%</td>
+    <td>65.0%</td>
+    <td>80.2%</td>
+    <td>93.3%</td>
+    <td>1.57%</td>
     <td>&#9733;&#9733;&#9733;</td>
-    <td><b>64.8</b></td>
+    <td><b>66.9</b></td>
   </tr>
   <tr class="highlight">
     <td><a href="hein.html">Hein</a></td>
     <td>47:53</td>
-    <td>33.4%</td>
-    <td>61.5%</td>
-    <td>78.5%</td>
-    <td>92.3%</td>
-    <td>1.2%</td>
+    <td>33.1%</td>
+    <td>62.5%</td>
+    <td>80.5%</td>
+    <td>91.7%</td>
+    <td>1.45%</td>
     <td>&#9733;&#9733;&#9733;&#9733;</td>
-    <td><b>64.0</b></td>
+    <td><b>65.4</b></td>
   </tr>
   <tr>
     <td><a href="http://www.workmanlayout.com/blog/">Workman</a></td>
     <td>52:48</td>
-    <td>34.5%</td>
-    <td>63.5%</td>
-    <td>78.7%</td>
-    <td>93.8%</td>
-    <td>2.5%</td>
+    <td>34.0%</td>
+    <td>63.8%</td>
+    <td>80.2%</td>
+    <td>94.4%</td>
+    <td>2.82%</td>
     <td>&#9733;&#9733;</td>
-    <td><b>63.9</b></td>
+    <td><b>65.3</b></td>
   </tr>
   <tr class="highlight">
     <td><a href="niro.html">Niro</a></td>
     <td>53:47</td>
-    <td>35.2%</td>
-    <td>63.0%</td>
-    <td>73.1%</td>
-    <td>89.0%</td>
-    <td>1.3%</td>
+    <td>36.6%</td>
+    <td>65.0%</td>
+    <td>75.3%</td>
+    <td>90.1%</td>
+    <td>1.82%</td>
     <td>&#9733;&#9733;&#9733;&#9733;</td>
-    <td><b>62.5</b></td>
+    <td><b>65.0</b></td>
   </tr>
   <tr>
     <td><a href="http://colemak.com/">Colemak</a></td>
     <td>47:53</td>
-    <td>34.5%</td>
-    <td>63.0%</td>
-    <td>71.7%</td>
-    <td>86.8%</td>
+    <td>35.5%</td>
+    <td>65.0%</td>
+    <td>73.7%</td>
+    <td>88.7%</td>
     <td>1.1%</td>
     <td>&#9733;&#9733;&#9733;</td>
-    <td><b>61.8</b></td>
+    <td><b>64.6</b></td>
   </tr>
   <tr>
     <td><a href="http://millikeys.sourceforge.net/asset/">Asset</a></td>
     <td>52:48</td>
-    <td>35.2%</td>
-    <td>63.2%</td>
-    <td>69.7%</td>
-    <td>84.8%</td>
-    <td>2.5%</td>
+    <td>36.6%</td>
+    <td>65.0%</td>
+    <td>71.5%</td>
+    <td>87.2%</td>
+    <td>3.2%</td>
     <td>&#9733;&#9733;&#9733;&#9733;</td>
-    <td><b>58.2</b></td>
+    <td><b>61.9</b></td>
   </tr>
   <tr>
     <td><a href="https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard">Dvorak</a></td>
     <td>43:57</td>
-    <td>30.5%</td>
-    <td>59.5%</td>
+    <td>29.6%</td>
+    <td>59.0%</td>
     <td>65.4%</td>
-    <td>79.1%</td>
-    <td>2.4%</td>
+    <td>79.2%</td>
+    <td>2.5%</td>
     <td>&#9733;</td>
-    <td><b>53.8</b></td>
+    <td><b>55.8</b></td>
   </tr>
   <tr>
     <td><a href="https://en.wikipedia.org/wiki/QWERTY">Qwerty</a></td>
     <td>58:42</td>
-    <td>7.6%</td>
-    <td>26.1%</td>
-    <td>49.0%</td>
-    <td>78.7%</td>
-    <td>6.5%</td>
+    <td>6.9%</td>
+    <td>25.5%</td>
+    <td>49.2%</td>
+    <td>79.6%</td>
+    <td>6.9%</td>
     <td>&mdash;</td>
-    <td><b>27.4</b></td>
+    <td><b>33.4</b></td>
   </tr>
 </table>
 
-<p>According to this analysis, Solemak is the best performing layout, but as you may expect, is the most difficult to learn of the three presented here. The layout with the best performance vs learning effort may be Niro or Hein, due to fewer keys changing fingers. Of the layouts designed elsewhere, we find that Workman is the best. But note it has a higher consecutive same finger ratio than any of the three layouts presented in this project, and with more keys changing relative to Qwerty, is also more difficult to learn. Colemak also performs respectably well, has the nice benefit of a low same-finger count, and is should be a little easier to learn than Workman, but is let down by not optimizing some difficult keys.</p>
+<p>According to this analysis, Solemak is the best performing layout, but as you may expect, is the most difficult to learn of the three presented here. The layout with the best performance vs learning effort may well be Niro or Hein, due to fewer keys changing fingers.</p>
+
+<p>Of the layouts designed elsewhere, we find that Workman is marginally the best. But note it has a higher consecutive same finger ratio than any of the three layouts presented in this project, and with more keys changing relative to Qwerty, is also more difficult to learn. Colemak also performs respectably well, has the nice benefit of a low same-finger count, and is should be a little easier to learn than Workman, but is let down by not optimizing some difficult keys.</p>
+
+<p>In summary, Solemak is strongly as the overall best layout. Hein and Niro are almost as good and provide excellent performance for a reduced difficulty of learning. If you decide to try any of the layouts, <a href="forum.html">give us your feedback</a>!</p>
 
 <h3><a id="patorjk" class="anchor" href="#patorjk" aria-hidden="true"><span class="octicon octicon-link"></span></a>patorjk analyzer</h3>
 
@@ -193,7 +197,7 @@ Here are the results:</p>
 
 <h3><a id="notes" class="anchor" href="#notes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Notes</h3>
 
-¹ For our key frequency tests we use letter and bigram occurrences from a range of out-of-copyright books. Only the alphabetic letters are included, the effect of punctuation and other symbols is not counted.<br/>
+¹ For our key frequency tests we use letter and bigram occurrences as <a href="http://norvig.com/mayzner.html">published here by Peter Norvig</a>. Only the alphabetic letters are included, the effect of punctuation and other symbols is not counted.<br/>
 
 
       </section>
