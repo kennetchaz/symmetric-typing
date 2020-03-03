@@ -33,8 +33,7 @@
         <nav>
           <li class="menu"><a href="index.html">About</a></li>
           <li class="menu"><a href="layouts.html">Layouts</a></li>
-          <li class="menu"><a href="solemak.html">Solemak</a></li>
-          <li class="menu"><a href="hein.html">Hein</a></li>
+          <li class="menu"><a href="soul.html">Soul</a></li>
           <li class="menu"><a href="niro.html">Niro</a></li>
           <li class="menu selected"><a href="results.html">Results</a></li>
           <li class="downloads"><a href="https://github.com/kennetchaz/symmetric-typing/tree/gh-pages/downloads">Downloads</a></li>
@@ -51,16 +50,16 @@
 
 <h2><a id="results" class="anchor" href="#results" aria-hidden="true"><span class="octicon octicon-link"></span></a>Alternative Layouts - Performance Comparison.</h2>
 
-<p>The layouts presented in these pages (<a href="niro.html">Niro</a>, <a href="hein.html">Hein</a>, <a href="solemak.html">Solemak</a>), together with some other well-known alternative layouts have been analyzed using a simple scoring algorithm. The scoring is calculated based on the frequency¹ each key is typed, with keys valued at 4 (for the easiest keys) to 0 for the most difficult. In addition a penalty is applied for the frequency¹ with which consecutive same-finger key presses occur. Although relatively simple, arguably this scoring system encapsulates the main factors for assessing keyboard layouts. If you test them against other scoring systems, let us know the results!</p>
+<p>The layouts presented in these pages (<a href="niro.html">Niro</a> and <a href="soul.html">Soul</a>), together with some other well-known alternative layouts have been analyzed using a simple scoring algorithm. The scoring is calculated based on the frequency¹ each key is typed, with keys valued at 5 (for the easiest keys) down to 0 for the most difficult. Only the best 20 keys have positive scores, but this should represent the vast majority of keystrokes. In addition to this position-based score, a penalty is applied for the frequency¹ with which consecutive same-finger key presses occur. Although relatively simple, arguably this scoring system encapsulates the main factors for assessing keyboard layouts. If you test them against other scoring systems, let us know the results!</p>
 
 <p>The formula used for scoring is:</p>
 
-<code>score = ( F<sub>4</sub> ) + ( 3/4 * F<sub>3</sub> ) + ( 1/2 * F<sub>2</sub> ) + ( 1/4 * F<sub>1</sub> ) -  (same-finger)</code><br/>
+<code>score = ( F<sub>5</sub> )( 4/5 * F<sub>4</sub> ) + ( 3/5 * F<sub>3</sub> ) + ( 2/5 * F<sub>2</sub> ) + ( 1/5 * F<sub>1</sub> ) -  (same-finger)</code><br/>
 <span style="font-size:x-small">...where F<sub><b><i>s</i></b></sub> is the frequency of keys that score <b><i>s</i></b>.</span><br/>
 <br/>
 This is also equivalent to:<br/>
 <br/>
-<code>score = [ (best 4) + (best 8) + (best 12) + (best 18) ] / 4  -  (same-finger)</code><br/>
+<code>score = [ (best 4) + (best 8) + (best 12) + (best 16) + (best 20) ] / 5  -  (same-finger)</code><br/>
 <span style="font-size:x-small">...where (best <b><i>n</i></b>) refers to the frequency of a keypress being one of the <b><i>n</i></b> best keys.</span><br/>
 <br/>
 
@@ -70,8 +69,7 @@ The scores for each key.
 </div>
 
 <p>Using this scoring system we evaluated our layouts, plus some other well-known layouts including <a href="http://colemak.com/">Colemak</a>, <a href="https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard">Dvorak</a> and <a href="http://www.workmanlayout.com/blog/">Workman</a>. 
-As well as the overall scores we also show what percentage of key presses are covered by the best 4 keys (dark blue), best 8 (+light blue), 
-best 12 (+green) and best 18 (+yellow) keys.</p>
+As well as the overall scores we also show what percentage of key presses are covered by the best 4 keys (dark blue), best 8 (+light blue), best 12 (+green), best 16 (+yellow) and best 20 (+orange) keys.</p>
 
 Here are the results:</p>
 
@@ -79,109 +77,106 @@ Here are the results:</p>
   <tr>
     <th>Layout</th>
     <th>Hand Balance<br/>Left:Right</th>
-    <th>best 4<br/>keys</th>
-    <th>best 8<br/>keys</th>
-    <th>best 12<br/>keys</th>
-    <th>best 18<br/>keys</th>
+    <th>best&nbsp;4<br/>keys</th>
+    <th>best&nbsp;8<br/>keys</th>
+    <th>best&nbsp;12<br/>keys</th>
+    <th>best&nbsp;16<br/>keys</th>
+    <th>best&nbsp;20<br/>keys</th>
     <th>% same<br/>finger</th>
     <th>Ease of<br/>learning</th>
     <th>Overall<br/>Score</th>
   </tr>
   <tr class="highlight">
-    <td><a href="solemak.html">Solemak</a></td>
-    <td>48:52</td>
+    <td><a href="soul.html">Soul</a></td>
+    <td>49:51</td>
     <td>35.3%</td>
-    <td>65.0%</td>
-    <td>80.2%</td>
-    <td>93.3%</td>
-    <td>1.57%</td>
-    <td>&#9733;&#9733;&#9733;</td>
-    <td><b>66.9</b></td>
-  </tr>
-  <tr class="highlight">
-    <td><a href="hein.html">Hein</a></td>
-    <td>48:52</td>
-    <td>33.1%</td>
     <td>62.5%</td>
-    <td>80.5%</td>
-    <td>91.7%</td>
-    <td>1.45%</td>
-    <td>&#9733;&#9733;&#9733;&#9733;</td>
-    <td><b>65.4</b></td>
+    <td>80.2%</td>
+    <td>86.8%</td>
+    <td>92.7%</td>
+    <td>1.4%</td>
+    <td>&#9733;&#9733;&#9733;</td>
+    <td><b>70.6</b></td>
   </tr>
   <tr>
     <td><a href="http://www.workmanlayout.com/blog/">Workman</a></td>
     <td>51:49</td>
     <td>34.0%</td>
     <td>63.8%</td>
-    <td>80.2%</td>
-    <td>94.4%</td>
-    <td>2.82%</td>
+    <td>79.4%</td>
+    <td>83.7%</td>
+    <td>93.6%</td>
+    <td>2.7%</td>
     <td>&#9733;&#9733;</td>
-    <td><b>65.3</b></td>
+    <td><b>68.2</b></td>
   </tr>
   <tr class="highlight">
     <td><a href="niro.html">Niro</a></td>
-    <td>53:47</td>
+    <td>55:45</td>
     <td>36.6%</td>
     <td>65.0%</td>
     <td>75.3%</td>
-    <td>90.1%</td>
-    <td>1.82%</td>
+    <td>81.7%</td>
+    <td>89.1%</td>
+    <td>1.6%</td>
     <td>&#9733;&#9733;&#9733;&#9733;</td>
-    <td><b>65.0</b></td>
+    <td><b>67.9</b></td>
   </tr>
   <tr>
     <td><a href="http://colemak.com/">Colemak</a></td>
     <td>48:52</td>
     <td>35.5%</td>
     <td>65.0%</td>
-    <td>73.7%</td>
-    <td>88.7%</td>
+    <td>76.0%</td>
+    <td>82.5%</td>
+    <td>87.4%</td>
     <td>1.1%</td>
     <td>&#9733;&#9733;&#9733;</td>
-    <td><b>64.6</b></td>
+    <td><b>67.9</b></td>
   </tr>
   <tr>
     <td><a href="http://millikeys.sourceforge.net/asset/">Asset</a></td>
     <td>53:47</td>
     <td>36.6%</td>
     <td>65.0%</td>
-    <td>71.5%</td>
-    <td>87.2%</td>
-    <td>3.2%</td>
+    <td>73.8%</td>
+    <td>78.6%</td>
+    <td>86.0%</td>
+    <td>2.8%</td>
     <td>&#9733;&#9733;&#9733;&#9733;</td>
-    <td><b>61.9</b></td>
+    <td><b>65.2</b></td>
   </tr>
   <tr>
     <td><a href="https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard">Dvorak</a></td>
     <td>43:57</td>
     <td>29.6%</td>
     <td>59.0%</td>
-    <td>65.4%</td>
-    <td>79.2%</td>
-    <td>2.5%</td>
+    <td>65.0%</td>
+    <td>70.8%</td>
+    <td>79.1%</td>
+    <td>2.6%</td>
     <td>&#9733;</td>
-    <td><b>55.8</b></td>
+    <td><b>58.1</b></td>
   </tr>
   <tr>
     <td><a href="https://en.wikipedia.org/wiki/QWERTY">Qwerty</a></td>
     <td>59:41</td>
     <td>6.9%</td>
     <td>25.5%</td>
-    <td>49.2%</td>
-    <td>79.6%</td>
-    <td>6.9%</td>
+    <td>51.5%</td>
+    <td>60.7%</td>
+    <td>78.3%</td>
+    <td>6.8%</td>
     <td>&mdash;</td>
-    <td><b>33.4</b></td>
+    <td><b>37.8</b></td>
   </tr>
 </table>
 
-<p>According to this analysis, Solemak is the best performing layout, but as you may expect, is the most difficult to learn of the three presented here. The layout with the best performance vs learning effort may well be Niro or Hein, due to fewer keys changing fingers.</p>
+<p>According to this analysis, Soul is the best performing layout tested. Of the two layouts presented here, Soul scores a little better than Niro, but Niro is designed to be easier to learn. Nonetheless, despite the fewer keys moved, the Niro layout manages to acheive a rating on par with Colemak.
 
-<p>Of the layouts designed elsewhere, we find that Workman is marginally the best. But note it has a higher consecutive same finger ratio than any of the three layouts presented in this project, and with more keys changing relative to Qwerty, is also more difficult to learn. Colemak also performs respectably well, has the nice benefit of a low same-finger count, and is should be a little easier to learn than Workman, but is let down by not optimizing some difficult keys.</p>
+<p>Of the layouts designed elsewhere, we find that Workman is marginally the best. But note it has a higher consecutive same finger ratio than either of the two layouts presented in this project, and with more keys changing relative to Qwerty, is also more difficult to learn. Colemak also performs respectably well, has the nice benefit of a low same-finger count, and is should be a little easier to learn than Workman, but is let down by not optimizing some difficult keys.</p>
 
-<p>In summary, Solemak is recommended as the overall best layout. Hein and Niro are almost as good and provide excellent performance at a lower cost of learning.</p>
+<p>In summary, Soul is recommended as the overall best layout. Niro is nearly as good and should provide excellent performance for those seeking a less radical layout change from Qwerty.</p>
 
 <h3><a id="notes" class="anchor" href="#notes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Notes</h3>
 

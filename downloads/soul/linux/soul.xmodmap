@@ -2,29 +2,29 @@ keycode  24 = q Q q Q
 keycode  25 = w W w W
 keycode  26 = l L l L
 keycode  27 = d D d D
-keycode  28 = b B b B
-keycode  29 = j J j J
-keycode  30 = u U u P
-keycode  31 = o O O P
+keycode  28 = p P p P
+keycode  29 = k K k K
+keycode  30 = m M m M
+keycode  31 = u U u U
 keycode  32 = y Y y Y
-keycode  33 = p P p P
-keycode  51 = semicolon colon semicolon colon
-!
+keycode  33 = semicolon colon semicolon colon
+
 keycode  38 = a A a A
 keycode  39 = s S s S
 keycode  40 = r R r R
 keycode  41 = t T t T
 keycode  42 = g G g G
 keycode  43 = f F f F
-keycode  44 = h H h H
+keycode  44 = n N n N
 keycode  45 = e E e E
 keycode  46 = i I i I
-keycode  47 = n N n N
-!
+keycode  47 = o O o O
+
 keycode  52 = z Z z Z
 keycode  53 = x X x X
 keycode  54 = c C c C
 keycode  55 = v V v V
-keycode  56 = backslash bar backslash bar
-keycode  57 = k K k K
-keycode  58 = m M m M
+keycode  56 = j J j J
+keycode  57 = b B b B
+keycode  58 = h H h H
+

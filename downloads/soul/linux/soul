@@ -1,5 +1,5 @@
-// Hein symbols for xkb on XFree86 and X.Org server 6.x (old)
-// https://kennetchaz.github.io/symmetric-typing/solemak.html
+// Soul symbols for xkb on XFree86 and X.Org server 6.x (old)
+// https://kennetchaz.github.io/symmetric-typing/soul.html
 //
 // Based on the xkb file for the Workman layout you can find at:
 // https://github.com/ojbucao/Workman/blob/master/xfree86/workman
@@ -28,35 +28,34 @@ xkb_symbols "basic" {
     key <AD02> { [            w,            W,  dead_diaeresis,       asciitilde ] };
     key <AD03> { [            l,            L,      dead_grave,       asciitilde ] };
     key <AD04> { [            d,            D,           aring,            Aring ] };
-    key <AD05> { [            b,            B,      dead_breve,       asciitilde ] };
-    key <AD06> { [            j,            J,         dstroke,          Dstroke ] };
-    key <AD07> { [            u,            U,          atilde,           Atilde ] };
-    key <AD08> { [            o,            O,          uacute,           Uacute ] };
+    key <AD05> { [            p,            P,      dead_breve,       asciitilde ] };
+    key <AD06> { [            k,            K,         dstroke,          Dstroke ] };
+    key <AD07> { [            m,            M,          atilde,           Atilde ] };
+    key <AD08> { [            u,            U,          uacute,           Uacute ] };
     key <AD09> { [            y,            Y,          oslash,         Ooblique ] };
-    key <AD10> { [            p,            P,      odiaeresis,       Odiaeresis ] };
+    key <AD10> { [    semicolon,        colon,      odiaeresis,       Odiaeresis ] };
     key <AD11> { [  bracketleft,    braceleft,   guillemotleft,        0x1002039 ] };
     key <AD12> { [ bracketright,   braceright,  guillemotright,        0x100203a ] };
-    key <BKSL> { [    semicolon,        colon,      asciitilde,       asciitilde ] };
 
     key <AC01> { [            a,            A,          aacute,           Aacute ] };
     key <AC02> { [            s,            S,          ssharp,       asciitilde ] };
     key <AC03> { [            r,            R,      dead_caron,       asciitilde ] };
     key <AC04> { [            t,            T,      dead_acute, dead_doubleacute ] };
     key <AC05> { [            g,            G,     dead_ogonek,       asciitilde ] };
-    key <AC06> { [            f,            F,      udiaeresis,       Udiaeresis ] };
-    key <AC07> { [            h,            H,          ntilde,           Ntilde ] };
+    key <AC06> { [            f,            H,      udiaeresis,       Udiaeresis ] };
+    key <AC07> { [            n,            N,          ntilde,           Ntilde ] };
     key <AC08> { [            e,            E,          eacute,           Eacute ] };
     key <AC09> { [            i,            I,          oacute,           Oacute ] };
-    key <AC10> { [            n,            N,          iacute,           Iacute ] };
+    key <AC10> { [            o,            O,          iacute,           Iacute ] };
     key <AC11> { [   apostrophe,     quotedbl,          otilde,           Otilde ] };
 
     key <AB01> { [            z,            Z,              ae,               AE ] };
     key <AB02> { [            x,            X, dead_circumflex,       asciitilde ] };
     key <AB03> { [            c,            C,     dead_macron,       asciitilde ] };
     key <AB04> { [            v,            V,        ccedilla,         Ccedilla ] };
-    key <AB05> { [    backslash,          bar,              oe,               OE ] };
-    key <AB06> { [            k,            K,  dead_abovering,       asciitilde ] };
-    key <AB07> { [            m,            M,         lstroke,          Lstroke ] };
+    key <AB05> { [            j,            J,              oe,               OE ] };
+    key <AB06> { [            b,            B,  dead_abovering,       asciitilde ] };
+    key <AB07> { [            h,            H,         lstroke,          Lstroke ] };
     key <AB08> { [        comma,         less,    dead_cedilla,       asciitilde ] };
     key <AB09> { [       period,      greater,   dead_abovedot,       asciitilde ] };
     key <AB10> { [        slash,     question,    questiondown,       asciitilde ] };

@@ -1,13 +1,13 @@
-To try the hein layout on Linux you can use the `xmodmap` definition in this
-folder. Just try this command and keep your Solemak cheatsheet near you:
+To try the Soul layout on Linux you can use the `xmodmap` definition in this
+folder. 
 
-    $ xmodmap hein.xmodmap
+    $ xmodmap soul.xmodmap
 
-The hein layout will last only for the current session, when you
+The Soul layout will last only for the current session, when you
 will restart your computer you will have your usual layout.
 
 If you want to have a more permanent setup than you can use the xkb definition
-file (it's just named `hein`) and put it in your xkb symbols folder, which
+file (it's just named `soul`) and put it in your xkb symbols folder, which
 depends on your distribution.  In my case, since I'm using fedora in this
 moment, the right location is:
 
@@ -15,7 +15,7 @@ moment, the right location is:
 
 When you have put the file in the right location you can just:
 
-    $ setxkbmap hein
+    $ setxkbmap soul
 
 Even this setting will last only for the current session. The command to make
 the layout the default one depends on your distribution.

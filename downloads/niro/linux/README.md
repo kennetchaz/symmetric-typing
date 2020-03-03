@@ -1,5 +1,5 @@
-To try the niro layout on Linux you can use the `xmodmap` definition in this
-folder. Just try this command and keep your Solemak cheatsheet near you:
+To try the Niro layout on Linux you can use the `xmodmap` definition in this
+folder. 
 
     $ xmodmap niro.xmodmap
 
