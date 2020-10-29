@@ -17,7 +17,7 @@ For each layout, there is:
 ### Soul Layout [(info)](http://kennetchaz.github.io/symmetric-typing/soul.html)
 
 * [Windows Installer](https://github.com/kennetchaz/symmetric-typing/raw/gh-pages/downloads/soul/soul.zip)
-* [KLC file](solemak/solemak.klc)
+* [KLC file](soul/soul.klc)
 * [Linux information](soul/linux/)
 
 ### Niro Layout [(info)](http://kennetchaz.github.io/symmetric-typing/niro.html)
