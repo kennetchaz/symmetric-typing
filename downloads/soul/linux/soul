@@ -45,8 +45,8 @@ xkb_symbols "basic" {
     key <AC06> { [            f,            H,      udiaeresis,       Udiaeresis ] };
     key <AC07> { [            n,            N,          ntilde,           Ntilde ] };
     key <AC08> { [            e,            E,          eacute,           Eacute ] };
-    key <AC09> { [            i,            I,          oacute,           Oacute ] };
-    key <AC10> { [            o,            O,          iacute,           Iacute ] };
+    key <AC09> { [            i,            I,          iacute,           Iacute ] };
+    key <AC10> { [            o,            O,          oacute,           Oacute ] };
     key <AC11> { [   apostrophe,     quotedbl,          otilde,           Otilde ] };
 
     key <AB01> { [            z,            Z,              ae,               AE ] };
