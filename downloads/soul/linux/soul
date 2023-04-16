@@ -42,7 +42,7 @@ xkb_symbols "basic" {
     key <AC03> { [            r,            R,      dead_caron,       asciitilde ] };
     key <AC04> { [            t,            T,      dead_acute, dead_doubleacute ] };
     key <AC05> { [            g,            G,     dead_ogonek,       asciitilde ] };
-    key <AC06> { [            f,            H,      udiaeresis,       Udiaeresis ] };
+    key <AC06> { [            f,            F,      udiaeresis,       Udiaeresis ] };
     key <AC07> { [            n,            N,          ntilde,           Ntilde ] };
     key <AC08> { [            e,            E,          eacute,           Eacute ] };
     key <AC09> { [            i,            I,          iacute,           Iacute ] };
